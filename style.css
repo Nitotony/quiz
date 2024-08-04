@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.overall{
+    background-color:antiquewhite;
+    width: 70%;
+    height: 50%;
+    margin: 100px auto;
+    border-radius: 20px;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+}
+
+.option p{
+    display: inline;
+    margin:0px 5px;
+}
+.option{
+    width: 40%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: brown;
+    color: white;
+}
+.buttons{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    margin: 20px auto;
+
+}
+
+
+.buttons button{
+    color:white;
+    background-color: rgb(187, 75, 75);
+    padding: 20px;
+}
+.ques{
+    padding: 20px;
+    text-align: center;
+}

@@ -2,7 +2,13 @@
 
 const op=document.querySelectorAll('.option');
 
-ans=['bla','boom'];
+ans = [
+  "Hyper Text Markup Language",
+  "World Wide Web",
+  "Browser Object Model",
+  "Document Object Model",
+  "Cascading Style Sheet",
+];
 
 for(let i=0;i<op.length;i++){
     op[i].addEventListener('click',function(){
